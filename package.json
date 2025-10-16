@@ -1,0 +1,44 @@
+{
+	"name": "interomap",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev --host",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.2",
+		"@sveltejs/kit": "^1.5.0",
+		"@tabler/icons-svelte": "^2.17.0",
+		"@types/chroma-js": "^2.4.0",
+		"@types/papaparse": "^5.3.8",
+		"@types/wicg-file-system-access": "^2023.10.5",
+		"@typescript-eslint/eslint-plugin": "^6.9.0",
+		"@typescript-eslint/parser": "^6.9.0",
+		"autoprefixer": "^10.4.14",
+		"chroma-js": "^2.4.2",
+		"eslint": "^8.52.0",
+		"papaparse": "^5.4.1",
+		"postcss": "^8.4.23",
+		"prettier": "^3.0.3",
+		"prettier-plugin-eslint": "^1.0.2",
+		"prettier-plugin-svelte": "^3.1.0",
+		"simplify-js": "^1.2.4",
+		"svelte": "^3.54.0",
+		"svelte-check": "^3.0.1",
+		"tailwindcss": "^3.3.2",
+		"ts-standard": "^12.0.2",
+		"tslib": "^2.4.1",
+		"typescript": "^5.2.2",
+		"vite": "^4.3.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@transcend-io/conflux": "^4.1.0",
+		"three": "^0.165.0"
+	}
+}
