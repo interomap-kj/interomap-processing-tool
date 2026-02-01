@@ -15,12 +15,16 @@
  *
  */
 
+import ChildFront from '$lib/assets/child_front.svg'
+import ChildBack from '$lib/assets/child_back.svg'
 import FemaleFront from '$lib/assets/female_front.svg'
 import FemaleBack from '$lib/assets/female_back.svg'
 import MaleFront from '$lib/assets/male_front.svg'
 import MaleBack from '$lib/assets/male_back.svg'
 
 export const personas: SvgPath = {
+  ChildFront,
+  ChildBack,
   FemaleFront,
   FemaleBack,
   MaleFront,
